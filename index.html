@@ -1,11 +1,93 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Patato page</title>
-  </head>
-  <body>
-    <p>Hello! My name is patato :-)</p>
-  </body>
-</html>
 
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Text</title>
+</head>
+
+<body>
+  <div>
+    <ul>
+      <li> <a href="#head">Główna</a> </li>
+      <li> <a href="#img">Obrazki</a> </li>
+      <li> <a href="#form">Ankieta</a> </li>
+    </ul>
+  </div>
+
+  <h2 id="head">Tu jest nagłówek</h5>
+    <div>
+      <h4>Tekst</h4>
+      <p>Tekst, dużo tekstu tekst, dużo tekstu tekst, dużo tekstu tekst, dużo tekstu tekst, dużo tekstu tekst, dużo
+        tekstu</p>
+      <p>Jeszcze więcej tekstu Jeszcze więcej tekstu Jeszcze więcej tekstu Jeszcze więcej tekstu</p>
+      
+      <p>Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst</p>
+    </div>
+
+    <span id="img">
+      <img src="Słoń.jpg" alt="Tu miał być obrazek, jeśli go nie ma to coś poszło nie tak" />
+      <h2>no to niezły słoń</h2>
+      <img src="slon-afrykanski.jpg" alt="Tu miał być obrazek, jeśli go nie ma to coś poszło nie tak" />
+      <h2>i ten też</h2>
+    </span>
+
+    <form id="form" action="#head" method="post">
+      <div>
+        <label>
+          Czy słoń?
+          <input type="text" placeholder="może słoń?" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="słoń" value="słoń" />
+          Słoń
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="słoń" value="nie słoń" />
+          Nie słoń
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="słoń" value="też nie słoń" />
+          Nie Słoń
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="słoń" value="no, tu słoń" />
+          Słoń
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="radio" name="słoń" value="nie słoń" />
+          Nie słoń
+        </label>
+        <label>
+          <input type="radio" name="słoń" value="słoń" />
+          słoń
+        </label>
+      </div>
+      <div>
+        <label> Proszę wybrać słonia
+          <select>
+            <option value="no">hipopotam</option>
+            <option value="no">owca</option>
+            <option value="yes">słoń</option>
+            <option value="no">kura</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <button type="submit">Gotowe</button>
+        <button type="reset">Wyczyść</button>
+      </div>
+    </form>
+</body>
+
+</html>
